@@ -8,7 +8,6 @@
 
 <script>
 function hello(){
-	alert("Hi This is DevOps");
 	var a=parseInt(document.getElementById("a").value);
 	var b=parseInt(document.getElementById("b").value);
 	document.getElementById("c").value=(a+b);
