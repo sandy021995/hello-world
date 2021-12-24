@@ -1,37 +1,26 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+<!DOCTYPE html>
+<html>
+<body>
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
+<h2>JavaScript Variables</h2>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
+<p id="demo"></p>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
+<script>
+function hello(){
+	alert("Hi This is DevOps");
+	var a=parseInt(document.getElementById("a").value);
+	var b=parseInt(document.getElementById("b").value);
+	document.getElementById("c").value=(a+b);
+	
+}
+</script>
 
-   <h1> Thankyou, Happy Learning </h1>
+First Number : <input type="text" id="a"/>
+Second Number : <input type="text" id="b"/>
+<input type="button" value="Test" onclick="hello()"/>
+Result : <input type="text" id="c"/>
+</body>
+</html>
 
-  
-</form>
+
